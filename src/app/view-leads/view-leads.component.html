@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+
+
+<html>
+<head>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>FullName</th>
+        <th>LastContacted</th>
+        <th>Product</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>LeadStage</th>
+        <th> </th>
+      </tr>
+    </thead>
+
+<tbody>
+  
+  <tr *ngFor="let l of allLeads">
+
+    <td>{{l.firstName}}{{l.lastName}}</td>
+    <td>{{l.contacted}}</td>
+    <td>{{l.product}}</td>
+    <td>{{l.email}}</td>
+    <td>{{l.phoneNumber}}</td>
+    <td style="color: rgb(86, 228, 86);">{{l.leadStage}}</td>
+    <td><img src="../assets/images/gmail.png" id="search-icon" style="height: 20px; width: 20px;"></td>
+  </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+.report-container {
+    margin: 100px auto 10px auto;
+    padding-left: 132px;
+    align-items: left;
+    margin-right: 100px;
+}
+
+
+.recent {
+    margin-left: 40px;
+}
+
+button {
+    margin-left: 20px;
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    border-width: 3px;
+    border-radius: 4mm;
+    border-color: rgb(66, 178, 215);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: rgb(66, 178, 215);
+
+}
+
+button:hover {
+    color: rgb(124, 188, 248);
+}
+
+h4 {
+    margin-bottom: 30px;
+    color: #151b3c;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    text-align: left;
+    font-size: 20px;
+    border-width: 3px;
+    border-radius: 3mm;
+    border-color: white;
+    color: rgb(101, 100, 100);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
